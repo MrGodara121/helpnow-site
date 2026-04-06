@@ -1,0 +1,112 @@
+[
+  {
+    "id": "NB001",
+    "cityId": "NYC001",
+    "name": "Manhattan",
+    "slug": "manhattan",
+    "zipCodes": "10001-10040,10101-10282",
+    "latitude": 40.7831,
+    "longitude": -73.9712,
+    "priority": "High",
+    "serviceCount": 150
+  },
+  {
+    "id": "NB002",
+    "cityId": "NYC001",
+    "name": "Brooklyn",
+    "slug": "brooklyn",
+    "zipCodes": "11201-11256",
+    "latitude": 40.6782,
+    "longitude": -73.9442,
+    "priority": "High",
+    "serviceCount": 140
+  },
+  {
+    "id": "NB003",
+    "cityId": "NYC001",
+    "name": "Queens",
+    "slug": "queens",
+    "zipCodes": "11101-11109,11354-11379",
+    "latitude": 40.7282,
+    "longitude": -73.7949,
+    "priority": "High",
+    "serviceCount": 130
+  },
+  {
+    "id": "NB004",
+    "cityId": "NYC001",
+    "name": "Bronx",
+    "slug": "bronx",
+    "zipCodes": "10451-10475",
+    "latitude": 40.8448,
+    "longitude": -73.8648,
+    "priority": "High",
+    "serviceCount": 120
+  },
+  {
+    "id": "NB005",
+    "cityId": "NYC001",
+    "name": "Staten Island",
+    "slug": "staten-island",
+    "zipCodes": "10301-10314",
+    "latitude": 40.5795,
+    "longitude": -74.1502,
+    "priority": "Medium",
+    "serviceCount": 80
+  },
+  {
+    "id": "NB006",
+    "cityId": "NYC001",
+    "name": "Harlem",
+    "slug": "harlem",
+    "zipCodes": "10026-10039",
+    "latitude": 40.8116,
+    "longitude": -73.9468,
+    "priority": "Medium",
+    "serviceCount": 70
+  },
+  {
+    "id": "NB007",
+    "cityId": "NYC001",
+    "name": "Williamsburg",
+    "slug": "williamsburg",
+    "zipCodes": 1121111249,
+    "latitude": 40.7081,
+    "longitude": -73.9571,
+    "priority": "Medium",
+    "serviceCount": 65
+  },
+  {
+    "id": "NB008",
+    "cityId": "LA001",
+    "name": "Downtown LA",
+    "slug": "downtown-la",
+    "zipCodes": "90012-90017",
+    "latitude": 34.0407,
+    "longitude": -118.2468,
+    "priority": "High",
+    "serviceCount": 100
+  },
+  {
+    "id": "NB009",
+    "cityId": "LA001",
+    "name": "Hollywood",
+    "slug": "hollywood",
+    "zipCodes": "90027-90028,90038",
+    "latitude": 34.0928,
+    "longitude": -118.3287,
+    "priority": "High",
+    "serviceCount": 90
+  },
+  {
+    "id": "NB010",
+    "cityId": "CHI001",
+    "name": "Downtown Chicago",
+    "slug": "downtown-chicago",
+    "zipCodes": "60601-60607",
+    "latitude": 41.8843,
+    "longitude": -87.6324,
+    "priority": "High",
+    "serviceCount": 85
+  }
+]
