@@ -1,0 +1,42 @@
+[
+  {
+    "code": "US",
+    "name": "United States",
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "callCode": 1,
+    "leadEnabled": "Yes",
+    "callEnabled": "Yes",
+    "status": "Active"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "currency": "CAD",
+    "timezone": "America/Toronto",
+    "callCode": 1,
+    "leadEnabled": "Yes",
+    "callEnabled": "Yes",
+    "status": "Active"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "currency": "GBP",
+    "timezone": "Europe/London",
+    "callCode": 44,
+    "leadEnabled": "Yes",
+    "callEnabled": "Yes",
+    "status": "Active"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "currency": "AUD",
+    "timezone": "Australia/Sydney",
+    "callCode": 61,
+    "leadEnabled": "Yes",
+    "callEnabled": "Yes",
+    "status": "Active"
+  }
+]
