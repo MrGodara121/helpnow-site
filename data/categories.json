@@ -1,0 +1,112 @@
+[
+  {
+    "id": "CAT001",
+    "name": "Plumbing",
+    "slug": "plumbing",
+    "icon": "?",
+    "description": "Burst pipes, leaks, water heater repair",
+    "displayOrder": 1,
+    "featured": true,
+    "avgRating": 4.8,
+    "totalReviews": 1250
+  },
+  {
+    "id": "CAT002",
+    "name": "Water Damage",
+    "slug": "water-damage",
+    "icon": "?",
+    "description": "Flood cleanup, water extraction, drying",
+    "displayOrder": 2,
+    "featured": true,
+    "avgRating": 4.9,
+    "totalReviews": 890
+  },
+  {
+    "id": "CAT003",
+    "name": "Roofing",
+    "slug": "roofing",
+    "icon": "?",
+    "description": "Storm damage, leaks, tarp service",
+    "displayOrder": 3,
+    "featured": true,
+    "avgRating": 4.7,
+    "totalReviews": 650
+  },
+  {
+    "id": "CAT004",
+    "name": "Electrical",
+    "slug": "electrical",
+    "icon": "?",
+    "description": "Power outage, sparks, wiring issues",
+    "displayOrder": 4,
+    "featured": true,
+    "avgRating": 4.8,
+    "totalReviews": 450
+  },
+  {
+    "id": "CAT005",
+    "name": "HVAC",
+    "slug": "hvac",
+    "icon": "??",
+    "description": "No heat, no AC, gas leak",
+    "displayOrder": 5,
+    "featured": true,
+    "avgRating": 4.7,
+    "totalReviews": 380
+  },
+  {
+    "id": "CAT006",
+    "name": "Fire Damage",
+    "slug": "fire-damage",
+    "icon": "?",
+    "description": "Smoke cleanup, restoration",
+    "displayOrder": 6,
+    "featured": true,
+    "avgRating": 4.9,
+    "totalReviews": 230
+  },
+  {
+    "id": "CAT007",
+    "name": "Insurance",
+    "slug": "insurance",
+    "icon": "??",
+    "description": "Claim help, public adjuster",
+    "displayOrder": 7,
+    "featured": true,
+    "avgRating": 4.9,
+    "totalReviews": 180
+  },
+  {
+    "id": "CAT008",
+    "name": "Cleaning",
+    "slug": "cleaning",
+    "icon": "?",
+    "description": "Biohazard, mold, hoarding",
+    "displayOrder": 8,
+    "featured": false,
+    "avgRating": 4.8,
+    "totalReviews": 120
+  },
+  {
+    "id": "CAT009",
+    "name": "Locksmith",
+    "slug": "locksmith",
+    "icon": "?",
+    "description": "Lockout, broken keys, rekey",
+    "displayOrder": 9,
+    "featured": false,
+    "avgRating": 4.7,
+    "totalReviews": 90
+  },
+  {
+    "id": "CAT010",
+    "name": "Pest Control",
+    "slug": "pest-control",
+    "icon": "?",
+    "description": "Termites, bed bugs, rodents",
+    "displayOrder": 10,
+    "featured": false,
+    "avgRating": 4.6,
+    "totalReviews": 75
+  }
+]
