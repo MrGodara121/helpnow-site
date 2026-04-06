@@ -1,0 +1,900 @@
+{
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "callCode": 1,
+      "leadEnabled": "Yes",
+      "callEnabled": "Yes",
+      "status": "Active"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "currency": "CAD",
+      "timezone": "America/Toronto",
+      "callCode": 1,
+      "leadEnabled": "Yes",
+      "callEnabled": "Yes",
+      "status": "Active"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "callCode": 44,
+      "leadEnabled": "Yes",
+      "callEnabled": "Yes",
+      "status": "Active"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "currency": "AUD",
+      "timezone": "Australia/Sydney",
+      "callCode": 61,
+      "leadEnabled": "Yes",
+      "callEnabled": "Yes",
+      "status": "Active"
+    }
+  ],
+  "mainCategories": [
+    {
+      "id": "CAT001",
+      "name": "Plumbing",
+      "slug": "plumbing",
+      "icon": "?",
+      "description": "Burst pipes, leaks, water heater repair",
+      "displayOrder": 1,
+      "featured": true,
+      "avgRating": 4.8,
+      "totalReviews": 1250
+    },
+    {
+      "id": "CAT002",
+      "name": "Water Damage",
+      "slug": "water-damage",
+      "icon": "?",
+      "description": "Flood cleanup, water extraction, drying",
+      "displayOrder": 2,
+      "featured": true,
+      "avgRating": 4.9,
+      "totalReviews": 890
+    },
+    {
+      "id": "CAT003",
+      "name": "Roofing",
+      "slug": "roofing",
+      "icon": "?",
+      "description": "Storm damage, leaks, tarp service",
+      "displayOrder": 3,
+      "featured": true,
+      "avgRating": 4.7,
+      "totalReviews": 650
+    },
+    {
+      "id": "CAT004",
+      "name": "Electrical",
+      "slug": "electrical",
+      "icon": "?",
+      "description": "Power outage, sparks, wiring issues",
+      "displayOrder": 4,
+      "featured": true,
+      "avgRating": 4.8,
+      "totalReviews": 450
+    },
+    {
+      "id": "CAT005",
+      "name": "HVAC",
+      "slug": "hvac",
+      "icon": "??",
+      "description": "No heat, no AC, gas leak",
+      "displayOrder": 5,
+      "featured": true,
+      "avgRating": 4.7,
+      "totalReviews": 380
+    },
+    {
+      "id": "CAT006",
+      "name": "Fire Damage",
+      "slug": "fire-damage",
+      "icon": "?",
+      "description": "Smoke cleanup, restoration",
+      "displayOrder": 6,
+      "featured": true,
+      "avgRating": 4.9,
+      "totalReviews": 230
+    },
+    {
+      "id": "CAT007",
+      "name": "Insurance",
+      "slug": "insurance",
+      "icon": "??",
+      "description": "Claim help, public adjuster",
+      "displayOrder": 7,
+      "featured": true,
+      "avgRating": 4.9,
+      "totalReviews": 180
+    },
+    {
+      "id": "CAT008",
+      "name": "Cleaning",
+      "slug": "cleaning",
+      "icon": "?",
+      "description": "Biohazard, mold, hoarding",
+      "displayOrder": 8,
+      "featured": false,
+      "avgRating": 4.8,
+      "totalReviews": 120
+    },
+    {
+      "id": "CAT009",
+      "name": "Locksmith",
+      "slug": "locksmith",
+      "icon": "?",
+      "description": "Lockout, broken keys, rekey",
+      "displayOrder": 9,
+      "featured": false,
+      "avgRating": 4.7,
+      "totalReviews": 90
+    },
+    {
+      "id": "CAT010",
+      "name": "Pest Control",
+      "slug": "pest-control",
+      "icon": "?",
+      "description": "Termites, bed bugs, rodents",
+      "displayOrder": 10,
+      "featured": false,
+      "avgRating": 4.6,
+      "totalReviews": 75
+    }
+  ],
+  "subCategories": [
+    {
+      "id": "SUB001",
+      "categoryId": "CAT001",
+      "name": "Emergency Plumber",
+      "slug": "emergency-plumber",
+      "emergencyType": "24/7",
+      "priority": "Critical",
+      "responseTime": "30-60",
+      "description": "Burst pipes, major leaks"
+    },
+    {
+      "id": "SUB002",
+      "categoryId": "CAT001",
+      "name": "Burst Pipe Repair",
+      "slug": "burst-pipe",
+      "emergencyType": "Immediate",
+      "priority": "Critical",
+      "responseTime": 30,
+      "description": "Frozen or broken pipes"
+    },
+    {
+      "id": "SUB003",
+      "categoryId": "CAT001",
+      "name": "Leak Detection",
+      "slug": "leak-detection",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "60-120",
+      "description": "Hidden water leaks"
+    },
+    {
+      "id": "SUB004",
+      "categoryId": "CAT001",
+      "name": "Sewage Backup",
+      "slug": "sewage-backup",
+      "emergencyType": "Crisis",
+      "priority": "Critical",
+      "responseTime": "30-60",
+      "description": "Raw sewage cleanup"
+    },
+    {
+      "id": "SUB005",
+      "categoryId": "CAT001",
+      "name": "Water Heater Repair",
+      "slug": "water-heater",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "60-120",
+      "description": "No hot water"
+    },
+    {
+      "id": "SUB006",
+      "categoryId": "CAT001",
+      "name": "Gas Leak Repair",
+      "slug": "gas-leak",
+      "emergencyType": "Crisis",
+      "priority": "Critical",
+      "responseTime": "15-30",
+      "description": "Natural gas emergency"
+    },
+    {
+      "id": "SUB007",
+      "categoryId": "CAT001",
+      "name": "Drain Cleaning",
+      "slug": "drain-cleaning",
+      "emergencyType": "Urgent",
+      "priority": "Medium",
+      "responseTime": "60-120",
+      "description": "Clogged drains"
+    },
+    {
+      "id": "SUB008",
+      "categoryId": "CAT002",
+      "name": "Flood Cleanup",
+      "slug": "flood-cleanup",
+      "emergencyType": "24/7",
+      "priority": "Critical",
+      "responseTime": "30-60",
+      "description": "Basement, floor floods"
+    },
+    {
+      "id": "SUB009",
+      "categoryId": "CAT002",
+      "name": "Water Extraction",
+      "slug": "water-extraction",
+      "emergencyType": "Immediate",
+      "priority": "Critical",
+      "responseTime": 30,
+      "description": "Standing water removal"
+    },
+    {
+      "id": "SUB010",
+      "categoryId": "CAT002",
+      "name": "Mold Remediation",
+      "slug": "mold-remediation",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "120-240",
+      "description": "Toxic mold removal"
+    },
+    {
+      "id": "SUB011",
+      "categoryId": "CAT002",
+      "name": "Structural Drying",
+      "slug": "structural-drying",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "60-120",
+      "description": "Dry walls, floors"
+    },
+    {
+      "id": "SUB012",
+      "categoryId": "CAT003",
+      "name": "Emergency Roof Repair",
+      "slug": "emergency-roof-repair",
+      "emergencyType": "24/7",
+      "priority": "Critical",
+      "responseTime": "60-120",
+      "description": "Leaks, storm damage"
+    },
+    {
+      "id": "SUB013",
+      "categoryId": "CAT003",
+      "name": "Storm Damage",
+      "slug": "storm-damage",
+      "emergencyType": "Crisis",
+      "priority": "Critical",
+      "responseTime": "120-240",
+      "description": "Hurricane, wind"
+    },
+    {
+      "id": "SUB014",
+      "categoryId": "CAT003",
+      "name": "Hail Damage",
+      "slug": "hail-damage",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "240-480",
+      "description": "Hail impact repair"
+    },
+    {
+      "id": "SUB015",
+      "categoryId": "CAT003",
+      "name": "Roof Leak Repair",
+      "slug": "roof-leak-repair",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "60-120",
+      "description": "Ceiling leaks"
+    },
+    {
+      "id": "SUB016",
+      "categoryId": "CAT004",
+      "name": "Emergency Electrician",
+      "slug": "emergency-electrician",
+      "emergencyType": "24/7",
+      "priority": "Critical",
+      "responseTime": "30-60",
+      "description": "Sparks, outages"
+    },
+    {
+      "id": "SUB017",
+      "categoryId": "CAT004",
+      "name": "Power Outage",
+      "slug": "power-outage",
+      "emergencyType": "Crisis",
+      "priority": "Critical",
+      "responseTime": 30,
+      "description": "Complete blackout"
+    },
+    {
+      "id": "SUB018",
+      "categoryId": "CAT004",
+      "name": "Sparking Outlet",
+      "slug": "sparking-outlet",
+      "emergencyType": "Immediate",
+      "priority": "High",
+      "responseTime": "30-60",
+      "description": "Fire hazard"
+    },
+    {
+      "id": "SUB019",
+      "categoryId": "CAT005",
+      "name": "No Heat Emergency",
+      "slug": "no-heat-emergency",
+      "emergencyType": "24/7",
+      "priority": "Critical",
+      "responseTime": "60-120",
+      "description": "Winter emergency"
+    },
+    {
+      "id": "SUB020",
+      "categoryId": "CAT005",
+      "name": "No AC Emergency",
+      "slug": "no-ac-emergency",
+      "emergencyType": "24/7",
+      "priority": "High",
+      "responseTime": "60-120",
+      "description": "Summer cooling"
+    },
+    {
+      "id": "SUB021",
+      "categoryId": "CAT006",
+      "name": "Fire Restoration",
+      "slug": "fire-restoration",
+      "emergencyType": "24/7",
+      "priority": "Critical",
+      "responseTime": "60-120",
+      "description": "Full restoration"
+    },
+    {
+      "id": "SUB022",
+      "categoryId": "CAT006",
+      "name": "Smoke Cleanup",
+      "slug": "smoke-cleanup",
+      "emergencyType": "Urgent",
+      "priority": "High",
+      "responseTime": "120-240",
+      "description": "Smoke odor removal"
+    },
+    {
+      "id": "SUB023",
+      "categoryId": "CAT007",
+      "name": "Public Adjuster",
+      "slug": "public-adjuster",
+      "emergencyType": "Insurance",
+      "priority": "High",
+      "responseTime": 1440,
+      "description": "Claim negotiation"
+    },
+    {
+      "id": "SUB024",
+      "categoryId": "CAT007",
+      "name": "Insurance Claim Specialist",
+      "slug": "insurance-claim-specialist",
+      "emergencyType": "Insurance",
+      "priority": "High",
+      "responseTime": 1440,
+      "description": "Claim filing help"
+    }
+  ],
+  "cities": [],
+  "neighborhoods": [
+    {
+      "id": "NB001",
+      "cityId": "NYC001",
+      "name": "Manhattan",
+      "slug": "manhattan",
+      "zipCodes": "10001-10040,10101-10282",
+      "latitude": 40.7831,
+      "longitude": -73.9712,
+      "priority": "High",
+      "serviceCount": 150
+    },
+    {
+      "id": "NB002",
+      "cityId": "NYC001",
+      "name": "Brooklyn",
+      "slug": "brooklyn",
+      "zipCodes": "11201-11256",
+      "latitude": 40.6782,
+      "longitude": -73.9442,
+      "priority": "High",
+      "serviceCount": 140
+    },
+    {
+      "id": "NB003",
+      "cityId": "NYC001",
+      "name": "Queens",
+      "slug": "queens",
+      "zipCodes": "11101-11109,11354-11379",
+      "latitude": 40.7282,
+      "longitude": -73.7949,
+      "priority": "High",
+      "serviceCount": 130
+    },
+    {
+      "id": "NB004",
+      "cityId": "NYC001",
+      "name": "Bronx",
+      "slug": "bronx",
+      "zipCodes": "10451-10475",
+      "latitude": 40.8448,
+      "longitude": -73.8648,
+      "priority": "High",
+      "serviceCount": 120
+    },
+    {
+      "id": "NB005",
+      "cityId": "NYC001",
+      "name": "Staten Island",
+      "slug": "staten-island",
+      "zipCodes": "10301-10314",
+      "latitude": 40.5795,
+      "longitude": -74.1502,
+      "priority": "Medium",
+      "serviceCount": 80
+    },
+    {
+      "id": "NB006",
+      "cityId": "NYC001",
+      "name": "Harlem",
+      "slug": "harlem",
+      "zipCodes": "10026-10039",
+      "latitude": 40.8116,
+      "longitude": -73.9468,
+      "priority": "Medium",
+      "serviceCount": 70
+    },
+    {
+      "id": "NB007",
+      "cityId": "NYC001",
+      "name": "Williamsburg",
+      "slug": "williamsburg",
+      "zipCodes": 1121111249,
+      "latitude": 40.7081,
+      "longitude": -73.9571,
+      "priority": "Medium",
+      "serviceCount": 65
+    },
+    {
+      "id": "NB008",
+      "cityId": "LA001",
+      "name": "Downtown LA",
+      "slug": "downtown-la",
+      "zipCodes": "90012-90017",
+      "latitude": 34.0407,
+      "longitude": -118.2468,
+      "priority": "High",
+      "serviceCount": 100
+    },
+    {
+      "id": "NB009",
+      "cityId": "LA001",
+      "name": "Hollywood",
+      "slug": "hollywood",
+      "zipCodes": "90027-90028,90038",
+      "latitude": 34.0928,
+      "longitude": -118.3287,
+      "priority": "High",
+      "serviceCount": 90
+    },
+    {
+      "id": "NB010",
+      "cityId": "CHI001",
+      "name": "Downtown Chicago",
+      "slug": "downtown-chicago",
+      "zipCodes": "60601-60607",
+      "latitude": 41.8843,
+      "longitude": -87.6324,
+      "priority": "High",
+      "serviceCount": 85
+    }
+  ],
+  "landmarks": [],
+  "callNumbers": [
+    {
+      "id": "CALL001",
+      "countryCode": "US",
+      "cityId": "NYC001",
+      "categoryId": "CAT001",
+      "subCategoryId": "SUB001",
+      "displayNumber": 18889180798,
+      "forwardTo": 12125551234,
+      "providerId": "PROV001",
+      "minDuration": 120,
+      "payoutAmount": 350,
+      "payoutType": "Per Call"
+    },
+    {
+      "id": "CALL002",
+      "countryCode": "US",
+      "cityId": "NYC001",
+      "categoryId": "CAT001",
+      "subCategoryId": "SUB002",
+      "displayNumber": 18889180799,
+      "forwardTo": 12125551235,
+      "providerId": "PROV001",
+      "minDuration": 120,
+      "payoutAmount": 400,
+      "payoutType": "Per Lead"
+    },
+    {
+      "id": "CALL003",
+      "countryCode": "US",
+      "cityId": "NYC001",
+      "categoryId": "CAT002",
+      "subCategoryId": "SUB008",
+      "displayNumber": 18889180800,
+      "forwardTo": 12125551236,
+      "providerId": "PROV002",
+      "minDuration": 180,
+      "payoutAmount": 450,
+      "payoutType": "Per Lead"
+    },
+    {
+      "id": "CALL004",
+      "countryCode": "US",
+      "cityId": "NYC001",
+      "categoryId": "CAT007",
+      "subCategoryId": "SUB023",
+      "displayNumber": 18889180801,
+      "forwardTo": 12125551237,
+      "providerId": "PROV003",
+      "minDuration": 300,
+      "payoutAmount": 1500,
+      "payoutType": "Per Lead"
+    },
+    {
+      "id": "CALL005",
+      "countryCode": "US",
+      "cityId": "LA001",
+      "categoryId": "CAT001",
+      "subCategoryId": "SUB001",
+      "displayNumber": 18889180802,
+      "forwardTo": 13105551234,
+      "providerId": "PROV004",
+      "minDuration": 120,
+      "payoutAmount": 350,
+      "payoutType": "Per Call"
+    },
+    {
+      "id": "CALL006",
+      "countryCode": "US",
+      "cityId": "LA001",
+      "categoryId": "CAT003",
+      "subCategoryId": "SUB012",
+      "displayNumber": 18889180803,
+      "forwardTo": 13105551235,
+      "providerId": "PROV005",
+      "minDuration": 240,
+      "payoutAmount": 1200,
+      "payoutType": "Per Lead"
+    }
+  ],
+  "providers": [],
+  "providerReviews": [
+    {
+      "id": "R001",
+      "providerId": "PROV001",
+      "userName": "John D.",
+      "rating": 5,
+      "reviewText": "Fixed my burst pipe in 30 minutes! Excellent service.",
+      "date": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "R002",
+      "providerId": "PROV001",
+      "userName": "Mary S.",
+      "rating": 4,
+      "reviewText": "Good service, a bit expensive but worth it.",
+      "date": "2024-01-14T00:00:00.000Z"
+    },
+    {
+      "id": "R003",
+      "providerId": "PROV002",
+      "userName": "Bob W.",
+      "rating": 5,
+      "reviewText": "Water damage restored quickly. Great team!",
+      "date": "2024-01-13T00:00:00.000Z"
+    },
+    {
+      "id": "R004",
+      "providerId": "PROV003",
+      "userName": "Sarah J.",
+      "rating": 5,
+      "reviewText": "Got me $50k more from insurance. Amazing!",
+      "date": "2024-01-12T00:00:00.000Z"
+    }
+  ],
+  "ratingsSummary": [
+    {
+      "providerId": "PROV001",
+      "categoryId": "CAT001",
+      "cityId": "NYC001",
+      "avgRating": 4.8,
+      "totalReviews": 234,
+      "rating5": 180,
+      "rating4": 40,
+      "rating3": 10,
+      "rating2": 3,
+      "rating1": 1
+    },
+    {
+      "providerId": "PROV002",
+      "categoryId": "CAT002",
+      "cityId": "NYC001",
+      "avgRating": 4.9,
+      "totalReviews": 189,
+      "rating5": 165,
+      "rating4": 18,
+      "rating3": 4,
+      "rating2": 1,
+      "rating1": 1
+    },
+    {
+      "providerId": "PROV003",
+      "categoryId": "CAT007",
+      "cityId": "NYC001",
+      "avgRating": 4.9,
+      "totalReviews": 67,
+      "rating5": 58,
+      "rating4": 7,
+      "rating3": 1,
+      "rating2": 1,
+      "rating1": 0
+    }
+  ],
+  "pageControl": [],
+  "seoPages": [],
+  "internalLinks": [
+    {
+      "id": "IL001",
+      "sourceUrl": "emergency-plumber-manhattan-ny",
+      "targetUrl": "water-damage-brooklyn-ny",
+      "anchorText": "Water damage restoration also available",
+      "linkType": "Related",
+      "position": "Footer",
+      "priority": "High",
+      "nofollow": false
+    },
+    {
+      "id": "IL002",
+      "sourceUrl": "emergency-plumber-manhattan-ny",
+      "targetUrl": "burst-pipe-ny",
+      "anchorText": "Need burst pipe help? Click here",
+      "linkType": "Cross-sell",
+      "position": "Sidebar",
+      "priority": "High",
+      "nofollow": false
+    },
+    {
+      "id": "IL003",
+      "sourceUrl": "emergency-plumber-manhattan-ny",
+      "targetUrl": "public-adjuster-nyc",
+      "anchorText": "Insurance claim help for water damage",
+      "linkType": "Contextual",
+      "position": "Content",
+      "priority": "Medium",
+      "nofollow": false
+    }
+  ],
+  "linkingClusters": [
+    {
+      "id": "CLUST001",
+      "pillarPage": "water-damage-brooklyn-ny",
+      "clusterTopic": "Water Damage Restoration",
+      "supportingPages": "[\"flood-cleanup-brooklyn\",\"mold-remediation-brooklyn\",\"water-extraction-brooklyn\"]",
+      "linkDensity": "High",
+      "targetKeyword": "water damage restoration brooklyn"
+    },
+    {
+      "id": "CLUST002",
+      "pillarPage": "emergency-plumber-manhattan-ny",
+      "clusterTopic": "Plumbing Emergencies",
+      "supportingPages": "[\"burst-pipe-manhattan\",\"leak-detection-manhattan\",\"sewer-backup-manhattan\"]",
+      "linkDensity": "High",
+      "targetKeyword": "emergency plumber manhattan"
+    }
+  ],
+  "navigationMenu": [
+    {
+      "id": "NAV001",
+      "name": "Home",
+      "parentId": "NULL",
+      "url": "/",
+      "target": "_self",
+      "displayOrder": 1
+    },
+    {
+      "id": "NAV002",
+      "name": "Emergency Services",
+      "parentId": "NULL",
+      "url": "#services",
+      "target": "_self",
+      "displayOrder": 2
+    },
+    {
+      "id": "NAV003",
+      "name": "Plumbing",
+      "parentId": "NAV002",
+      "url": "/plumbing",
+      "target": "_self",
+      "displayOrder": 1
+    },
+    {
+      "id": "NAV004",
+      "name": "Water Damage",
+      "parentId": "NAV002",
+      "url": "/water-damage",
+      "target": "_self",
+      "displayOrder": 2
+    },
+    {
+      "id": "NAV005",
+      "name": "Locations",
+      "parentId": "NULL",
+      "url": "#cities",
+      "target": "_self",
+      "displayOrder": 3
+    },
+    {
+      "id": "NAV006",
+      "name": "Insurance Help",
+      "parentId": "NULL",
+      "url": "/insurance-claims",
+      "target": "_self",
+      "displayOrder": 4
+    }
+  ],
+  "advanceSearchBar": null,
+  "searchIndex": [],
+  "locationBasedContent": [],
+  "leadRouting": [],
+  "affiliatePrograms": [
+    {
+      "id": "AFF001",
+      "name": "GFLeads Plumbing",
+      "categoryId": "CAT001",
+      "commissionType": "Per Call",
+      "commissionValue": "$35-450",
+      "cookieDuration": 30,
+      "trackingLink": "https://gfleads.com/..."
+    },
+    {
+      "id": "AFF002",
+      "name": "GFLeads Water Damage",
+      "categoryId": "CAT002",
+      "commissionType": "Per Lead",
+      "commissionValue": "$175-450",
+      "cookieDuration": 30,
+      "trackingLink": "https://gfleads.com/..."
+    }
+  ],
+  "leadCaptureForms": [
+    {
+      "id": "F001",
+      "categoryId": "CAT001",
+      "formType": "Emergency",
+      "fields": "[\"name\",\"phone\",\"address\",\"issue\"]",
+      "requiredFields": "[\"name\",\"phone\"]",
+      "successMessage": "We'll connect you with an emergency plumber in 2 minutes"
+    },
+    {
+      "id": "F002",
+      "categoryId": "CAT007",
+      "formType": "Consultant",
+      "fields": "[\"name\",\"phone\",\"email\",\"claim_type\",\"damage_amount\"]",
+      "requiredFields": "[\"name\",\"phone\",\"email\"]",
+      "successMessage": "A public adjuster will contact you within 1 hour"
+    }
+  ],
+  "leadsDatabase": [
+    {
+      "id": "AUTO",
+      "timestamp": "AUTO",
+      "name": "AUTO",
+      "phone": "AUTO",
+      "email": "AUTO",
+      "cityId": "AUTO",
+      "categoryId": "AUTO",
+      "status": "AUTO",
+      "payout": "AUTO"
+    }
+  ],
+  "callLogs": [
+    {
+      "id": "AUTO",
+      "timestamp": "AUTO",
+      "callerNumber": "AUTO",
+      "calledNumber": "AUTO",
+      "duration": "AUTO",
+      "status": "AUTO"
+    }
+  ],
+  "systemConfig": {
+    "site_name": "HelpNow",
+    "site_logo": "? HelpNow",
+    "hero_title": "Emergency Help <span>Instantly</span>",
+    "hero_subtitle": "Connect with licensed professionals in your area.",
+    "search_placeholder": "Search: plumber, electrician, water damage...",
+    "default_emergency_number": 18889180798,
+    "trust_badge_1": "? 24/7 Emergency Response",
+    "trust_badge_2": "? Licensed & Insured",
+    "trust_badge_3": "? Free Estimates",
+    "trust_badge_4": "? 4.9/5 Customer Rating",
+    "footer_copyright": "? 2024 HelpNow. All rights reserved.",
+    "contact_email": "support@helpnow.com"
+  },
+  "colorsTheme": {
+    "primary_color": "#dc2626",
+    "primary_dark": "#b91c1c",
+    "secondary_start": "#1e1b4b",
+    "secondary_mid": "#312e81",
+    "secondary_end": "#4c1d95",
+    "text_dark": "#1f2937",
+    "text_gray": "#6b7280",
+    "bg_white": "#ffffff",
+    "bg_light": "#f9fafb",
+    "success_color": "#22c55e",
+    "warning_color": "#fbbf24",
+    "error_color": "#ef4444"
+  },
+  "fontsTypography": {
+    "font_family": "Inter', sans-serif",
+    "font_weight_regular": 400,
+    "font_weight_medium": 500,
+    "font_weight_semibold": 600,
+    "font_weight_bold": 700,
+    "heading_size_h1": "3.5rem",
+    "heading_size_h2": "2rem",
+    "body_size": "1rem"
+  },
+  "heroContent": {},
+  "servicesSection": {
+    "section_title": "Emergency Services Available 24/7",
+    "section_subtitle": "Licensed professionals ready to help you now",
+    "card_button_text": "Learn More"
+  },
+  "citiesSection": {
+    "section_title": "Service Areas - Available Across Major Cities",
+    "section_subtitle": "We're everywhere you need us",
+    "service_count_text": "{count}+ services available"
+  },
+  "howItWorks": [
+    {
+      "step": 1,
+      "title": "Describe Your Emergency",
+      "description": "Tell us what service you need and where you are"
+    },
+    {
+      "step": 2,
+      "title": "Get Matched Instantly",
+      "description": "We connect you with top-rated local professionals"
+    },
+    {
+      "step": 3,
+      "title": "Problem Solved",
+      "description": "Get help within 30-60 minutes, 24/7/365"
+    }
+  ],
+  "trustSection": [],
+  "lastUpdated": "2026-04-06T05:24:05.231Z"
+}
