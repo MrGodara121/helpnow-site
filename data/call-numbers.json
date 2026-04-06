@@ -1,0 +1,80 @@
+[
+  {
+    "id": "CALL001",
+    "countryCode": "US",
+    "cityId": "NYC001",
+    "categoryId": "CAT001",
+    "subCategoryId": "SUB001",
+    "displayNumber": 18889180798,
+    "forwardTo": 12125551234,
+    "providerId": "PROV001",
+    "minDuration": 120,
+    "payoutAmount": 350,
+    "payoutType": "Per Call"
+  },
+  {
+    "id": "CALL002",
+    "countryCode": "US",
+    "cityId": "NYC001",
+    "categoryId": "CAT001",
+    "subCategoryId": "SUB002",
+    "displayNumber": 18889180799,
+    "forwardTo": 12125551235,
+    "providerId": "PROV001",
+    "minDuration": 120,
+    "payoutAmount": 400,
+    "payoutType": "Per Lead"
+  },
+  {
+    "id": "CALL003",
+    "countryCode": "US",
+    "cityId": "NYC001",
+    "categoryId": "CAT002",
+    "subCategoryId": "SUB008",
+    "displayNumber": 18889180800,
+    "forwardTo": 12125551236,
+    "providerId": "PROV002",
+    "minDuration": 180,
+    "payoutAmount": 450,
+    "payoutType": "Per Lead"
+  },
+  {
+    "id": "CALL004",
+    "countryCode": "US",
+    "cityId": "NYC001",
+    "categoryId": "CAT007",
+    "subCategoryId": "SUB023",
+    "displayNumber": 18889180801,
+    "forwardTo": 12125551237,
+    "providerId": "PROV003",
+    "minDuration": 300,
+    "payoutAmount": 1500,
+    "payoutType": "Per Lead"
+  },
+  {
+    "id": "CALL005",
+    "countryCode": "US",
+    "cityId": "LA001",
+    "categoryId": "CAT001",
+    "subCategoryId": "SUB001",
+    "displayNumber": 18889180802,
+    "forwardTo": 13105551234,
+    "providerId": "PROV004",
+    "minDuration": 120,
+    "payoutAmount": 350,
+    "payoutType": "Per Call"
+  },
+  {
+    "id": "CALL006",
+    "countryCode": "US",
+    "cityId": "LA001",
+    "categoryId": "CAT003",
+    "subCategoryId": "SUB012",
+    "displayNumber": 18889180803,
+    "forwardTo": 13105551235,
+    "providerId": "PROV005",
+    "minDuration": 240,
+    "payoutAmount": 1200,
+    "payoutType": "Per Lead"
+  }
+]
