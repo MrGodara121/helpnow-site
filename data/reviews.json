@@ -1,0 +1,34 @@
+[
+  {
+    "id": "R001",
+    "providerId": "PROV001",
+    "userName": "John D.",
+    "rating": 5,
+    "reviewText": "Fixed my burst pipe in 30 minutes! Excellent service.",
+    "date": "2024-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "R002",
+    "providerId": "PROV001",
+    "userName": "Mary S.",
+    "rating": 4,
+    "reviewText": "Good service, a bit expensive but worth it.",
+    "date": "2024-01-14T00:00:00.000Z"
+  },
+  {
+    "id": "R003",
+    "providerId": "PROV002",
+    "userName": "Bob W.",
+    "rating": 5,
+    "reviewText": "Water damage restored quickly. Great team!",
+    "date": "2024-01-13T00:00:00.000Z"
+  },
+  {
+    "id": "R004",
+    "providerId": "PROV003",
+    "userName": "Sarah J.",
+    "rating": 5,
+    "reviewText": "Got me $50k more from insurance. Amazing!",
+    "date": "2024-01-12T00:00:00.000Z"
+  }
+]
