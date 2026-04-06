@@ -1,0 +1,242 @@
+[
+  {
+    "id": "SUB001",
+    "categoryId": "CAT001",
+    "name": "Emergency Plumber",
+    "slug": "emergency-plumber",
+    "emergencyType": "24/7",
+    "priority": "Critical",
+    "responseTime": "30-60",
+    "description": "Burst pipes, major leaks"
+  },
+  {
+    "id": "SUB002",
+    "categoryId": "CAT001",
+    "name": "Burst Pipe Repair",
+    "slug": "burst-pipe",
+    "emergencyType": "Immediate",
+    "priority": "Critical",
+    "responseTime": 30,
+    "description": "Frozen or broken pipes"
+  },
+  {
+    "id": "SUB003",
+    "categoryId": "CAT001",
+    "name": "Leak Detection",
+    "slug": "leak-detection",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "60-120",
+    "description": "Hidden water leaks"
+  },
+  {
+    "id": "SUB004",
+    "categoryId": "CAT001",
+    "name": "Sewage Backup",
+    "slug": "sewage-backup",
+    "emergencyType": "Crisis",
+    "priority": "Critical",
+    "responseTime": "30-60",
+    "description": "Raw sewage cleanup"
+  },
+  {
+    "id": "SUB005",
+    "categoryId": "CAT001",
+    "name": "Water Heater Repair",
+    "slug": "water-heater",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "60-120",
+    "description": "No hot water"
+  },
+  {
+    "id": "SUB006",
+    "categoryId": "CAT001",
+    "name": "Gas Leak Repair",
+    "slug": "gas-leak",
+    "emergencyType": "Crisis",
+    "priority": "Critical",
+    "responseTime": "15-30",
+    "description": "Natural gas emergency"
+  },
+  {
+    "id": "SUB007",
+    "categoryId": "CAT001",
+    "name": "Drain Cleaning",
+    "slug": "drain-cleaning",
+    "emergencyType": "Urgent",
+    "priority": "Medium",
+    "responseTime": "60-120",
+    "description": "Clogged drains"
+  },
+  {
+    "id": "SUB008",
+    "categoryId": "CAT002",
+    "name": "Flood Cleanup",
+    "slug": "flood-cleanup",
+    "emergencyType": "24/7",
+    "priority": "Critical",
+    "responseTime": "30-60",
+    "description": "Basement, floor floods"
+  },
+  {
+    "id": "SUB009",
+    "categoryId": "CAT002",
+    "name": "Water Extraction",
+    "slug": "water-extraction",
+    "emergencyType": "Immediate",
+    "priority": "Critical",
+    "responseTime": 30,
+    "description": "Standing water removal"
+  },
+  {
+    "id": "SUB010",
+    "categoryId": "CAT002",
+    "name": "Mold Remediation",
+    "slug": "mold-remediation",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "120-240",
+    "description": "Toxic mold removal"
+  },
+  {
+    "id": "SUB011",
+    "categoryId": "CAT002",
+    "name": "Structural Drying",
+    "slug": "structural-drying",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "60-120",
+    "description": "Dry walls, floors"
+  },
+  {
+    "id": "SUB012",
+    "categoryId": "CAT003",
+    "name": "Emergency Roof Repair",
+    "slug": "emergency-roof-repair",
+    "emergencyType": "24/7",
+    "priority": "Critical",
+    "responseTime": "60-120",
+    "description": "Leaks, storm damage"
+  },
+  {
+    "id": "SUB013",
+    "categoryId": "CAT003",
+    "name": "Storm Damage",
+    "slug": "storm-damage",
+    "emergencyType": "Crisis",
+    "priority": "Critical",
+    "responseTime": "120-240",
+    "description": "Hurricane, wind"
+  },
+  {
+    "id": "SUB014",
+    "categoryId": "CAT003",
+    "name": "Hail Damage",
+    "slug": "hail-damage",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "240-480",
+    "description": "Hail impact repair"
+  },
+  {
+    "id": "SUB015",
+    "categoryId": "CAT003",
+    "name": "Roof Leak Repair",
+    "slug": "roof-leak-repair",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "60-120",
+    "description": "Ceiling leaks"
+  },
+  {
+    "id": "SUB016",
+    "categoryId": "CAT004",
+    "name": "Emergency Electrician",
+    "slug": "emergency-electrician",
+    "emergencyType": "24/7",
+    "priority": "Critical",
+    "responseTime": "30-60",
+    "description": "Sparks, outages"
+  },
+  {
+    "id": "SUB017",
+    "categoryId": "CAT004",
+    "name": "Power Outage",
+    "slug": "power-outage",
+    "emergencyType": "Crisis",
+    "priority": "Critical",
+    "responseTime": 30,
+    "description": "Complete blackout"
+  },
+  {
+    "id": "SUB018",
+    "categoryId": "CAT004",
+    "name": "Sparking Outlet",
+    "slug": "sparking-outlet",
+    "emergencyType": "Immediate",
+    "priority": "High",
+    "responseTime": "30-60",
+    "description": "Fire hazard"
+  },
+  {
+    "id": "SUB019",
+    "categoryId": "CAT005",
+    "name": "No Heat Emergency",
+    "slug": "no-heat-emergency",
+    "emergencyType": "24/7",
+    "priority": "Critical",
+    "responseTime": "60-120",
+    "description": "Winter emergency"
+  },
+  {
+    "id": "SUB020",
+    "categoryId": "CAT005",
+    "name": "No AC Emergency",
+    "slug": "no-ac-emergency",
+    "emergencyType": "24/7",
+    "priority": "High",
+    "responseTime": "60-120",
+    "description": "Summer cooling"
+  },
+  {
+    "id": "SUB021",
+    "categoryId": "CAT006",
+    "name": "Fire Restoration",
+    "slug": "fire-restoration",
+    "emergencyType": "24/7",
+    "priority": "Critical",
+    "responseTime": "60-120",
+    "description": "Full restoration"
+  },
+  {
+    "id": "SUB022",
+    "categoryId": "CAT006",
+    "name": "Smoke Cleanup",
+    "slug": "smoke-cleanup",
+    "emergencyType": "Urgent",
+    "priority": "High",
+    "responseTime": "120-240",
+    "description": "Smoke odor removal"
+  },
+  {
+    "id": "SUB023",
+    "categoryId": "CAT007",
+    "name": "Public Adjuster",
+    "slug": "public-adjuster",
+    "emergencyType": "Insurance",
+    "priority": "High",
+    "responseTime": 1440,
+    "description": "Claim negotiation"
+  },
+  {
+    "id": "SUB024",
+    "categoryId": "CAT007",
+    "name": "Insurance Claim Specialist",
+    "slug": "insurance-claim-specialist",
+    "emergencyType": "Insurance",
+    "priority": "High",
+    "responseTime": 1440,
+    "description": "Claim filing help"
+  }
+]
